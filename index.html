@@ -3,25 +3,25 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#0C0C0E">
+<meta name="theme-color" content="#FAF8F3">
 <title>Avishak Palit – Portwise Ventures</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap">
 <style>
-:root{--bg:#0C0C0E;--card:#17181B;--text:#F2EEE6;--muted:#A9A59B;--line:#2C2D31;--gold:#C9A96E;--gold2:#E6D3A3;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:dark}
+:root{--bg:#FAF8F3;--card:#FFFFFF;--text:#1F2430;--muted:#6B6F7A;--line:#E6E0D2;--gold:#A5833F;--gold2:#8A6A2B;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
 *{box-sizing:border-box}
 html,body{margin:0}
 body{background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.5}
 .wrap{max-width:480px;margin:0 auto;padding:0 16px 40px}
-.hero{background:linear-gradient(160deg,#0C0C0E 0%,#232428 100%);text-align:center;padding:40px 20px 32px;border-radius:0 0 28px 28px;margin:0 -16px 22px;border-bottom:3px solid var(--gold)}
-.avatar{width:128px;height:128px;border-radius:50%;margin:0 auto 16px;border:3px solid var(--gold2);box-shadow:0 0 0 6px rgba(230,211,163,.15),0 10px 30px rgba(0,0,0,.5);overflow:hidden;background:#141416}
+.hero{background:linear-gradient(170deg,#FFFFFF 0%,#F2ECDD 100%);text-align:center;padding:40px 20px 32px;border-radius:0 0 28px 28px;margin:0 -16px 22px;border-bottom:3px solid var(--gold)}
+.avatar{width:128px;height:128px;border-radius:50%;margin:0 auto 16px;border:3px solid var(--gold);box-shadow:0 0 0 6px rgba(165,131,63,.15),0 10px 26px rgba(31,36,48,.18);overflow:hidden;background:#E9E4D8}
 .avatar img{width:100%;height:100%;object-fit:cover;object-position:50% 20%;display:block}
-h1{font:700 27px "Playfair Display",Georgia,serif;margin:0;color:#fff;letter-spacing:.02em}
+h1{font:700 27px "Playfair Display",Georgia,serif;margin:0;color:#1F2430;letter-spacing:.02em}
 .role{color:var(--gold2);font-size:13px;margin-top:6px;letter-spacing:.14em;text-transform:uppercase}
-.btn{display:flex;align-items:center;gap:14px;width:100%;text-align:left;font:inherit;cursor:pointer;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:13px 16px;margin-bottom:10px;text-decoration:none;color:var(--text)}
+.btn{box-shadow:0 2px 8px rgba(31,36,48,.05);display:flex;align-items:center;gap:14px;width:100%;text-align:left;font:inherit;cursor:pointer;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:13px 16px;margin-bottom:10px;text-decoration:none;color:var(--text)}
 .btn small{display:block;color:var(--muted);font-size:11px;letter-spacing:.08em;text-transform:uppercase}
 .btn b{font-size:15px;font-weight:600;word-break:break-all}
-.ic{width:40px;height:40px;border-radius:50%;background:linear-gradient(145deg,#2A2B30,#141416);color:var(--gold2);display:flex;align-items:center;justify-content:center;flex:none;font-size:17px;border:1px solid var(--gold)}
-.save{display:block;width:100%;margin:0 0 14px;padding:15px;border:1px solid var(--gold);border-radius:14px;background:linear-gradient(145deg,#2A2B30,#141416);color:var(--gold2);font:600 15px Inter,sans-serif;letter-spacing:.08em;cursor:pointer}
+.ic{width:40px;height:40px;border-radius:50%;background:#1F2430;color:#EBD9A8;display:flex;align-items:center;justify-content:center;flex:none;font-size:17px;border:1px solid var(--gold)}
+.save{display:block;width:100%;margin:0 0 14px;padding:15px;border:1px solid var(--gold);border-radius:14px;background:#1F2430;color:#F3E3B5;font:600 15px Inter,sans-serif;letter-spacing:.08em;cursor:pointer}
 h2{font:600 15px "Playfair Display",Georgia,serif;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:28px 0 12px;display:flex;align-items:center;gap:10px}
 h2::after{content:"";flex:1;height:1px;background:var(--line)}
 .biz{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:14px;padding:18px}
@@ -31,13 +31,13 @@ h2::after{content:"";flex:1;height:1px;background:var(--line)}
 .chips{display:flex;flex-wrap:wrap;gap:6px}
 .chips span{border:1px solid var(--gold);border-radius:999px;padding:3px 11px;font-size:12px;color:var(--muted)}
 .subs{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.sub{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.sub{box-shadow:0 4px 14px rgba(31,36,48,.07);background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
 .sub .lg{aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;overflow:hidden}
-.sub .lg img{width:100%;height:100%;object-fit:cover;display:block}
+.sub .lg img{width:100%;height:100%;object-fit:contain;display:block}
 .sub .nm{padding:10px 10px 12px;text-align:center}
 .sub b{display:block;font:600 13px "Playfair Display",Georgia,serif;letter-spacing:.14em;color:var(--gold2)}
 .sub small{display:block;color:var(--muted);font-size:11px;margin-top:2px;line-height:1.35}
-.plogo{display:block;width:100%;border-radius:10px;margin-bottom:14px;border:1px solid var(--line)}
+.plogo{box-shadow:0 6px 18px rgba(31,36,48,.15);display:block;width:100%;border-radius:10px;margin-bottom:14px;border:1px solid var(--line)}
 </style>
 </head>
 <body>
